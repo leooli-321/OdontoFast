@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="40dp" /> <!-- Defina o raio aqui -->
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:src="@mipmap/fastinho"
+            android:gravity="center"/>
+    </item>
+</layer-list>
