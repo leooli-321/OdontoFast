@@ -5,6 +5,13 @@
 ## Descrição
 OdontoFast é um aplicativo de assistência odontológica online que facilita o acesso a cuidados bucais. O aplicativo oferece uma interface amigável para que os usuários possam realizar login e acessar diversas funcionalidades relacionadas à saúde dental.
 
+### Link do APK
+LInk - https://github.com/leooli-321/OdontoFast/blob/master/OdontoFastApp.apk
+
+### Vídeo Demonstração:
+LInk - https://youtu.be/Wa5LwhelR2U
+
+
 ### Funcionalidades
 BoasVindasActivity: Tela de boas-vindas com apresentação do aplicativo e um botão que redireciona para a tela de login.
 
@@ -25,3 +32,7 @@ O aplicativo utiliza ConstraintLayout para uma organização eficiente dos eleme
 - Android Studio
 - Kotlin
 - XML para layouts
+
+
+## Wireframe da Solução
+![Wireframes](https://i.ibb.co/QMypyWK/Wireframe-Mobile.png)
