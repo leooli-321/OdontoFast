@@ -9,8 +9,10 @@ OdontoFast é um aplicativo de assistência odontológica online que facilita o 
 LInk - https://github.com/leooli-321/OdontoFast/blob/master/OdontoFastApp.apk
 
 ### Vídeo Demonstração:
-LInk - https://youtu.be/Wa5LwhelR2U
+Link - https://youtu.be/Wa5LwhelR2U
 
+###  Documentação Word:
+Link - https://github.com/leooli-321/OdontoFast/blob/master/Documentação%20-%20MAD%20(1).docx
 
 ### Funcionalidades
 BoasVindasActivity: Tela de boas-vindas com apresentação do aplicativo e um botão que redireciona para a tela de login.
