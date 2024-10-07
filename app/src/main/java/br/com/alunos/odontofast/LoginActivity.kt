@@ -39,6 +39,7 @@ class LoginActivity : AppCompatActivity() {
 
             // Navegação para a MainActivity
             val intent = Intent(this, MainActivity::class.java)
+            intent.putExtra("CARTEIRINHA", carteirinha) // Passando a carteirinha
             startActivity(intent)
             finish()  // Finaliza a LoginActivity para não voltar nela
         }

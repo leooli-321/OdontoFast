@@ -6,45 +6,51 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
+    <!-- Imagem de ícone -->
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/clipboardicon"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
+    <!-- Saudação -->
+
+
+    <!-- CardLayout 1: Ficha Odonto -->
     <TextView
         android:id="@+id/textViewGreeting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:gravity="start"
         android:text="Olá,\n Vinny! 👋"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.092"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/imageView8" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cardLayout1"
-        android:layout_width="150dp"
+        android:layout_width="0dp"
         android:layout_height="108dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/rounded_corner"
         android:padding="16dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="219dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardLayout2"
+        app:layout_constraintTop_toBottomOf="@id/textViewGreeting"
+        app:layout_constraintWidth_percent="0.5">
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/fichaodontoicon"
-            tools:ignore="MissingConstraints" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textView"
@@ -54,27 +60,29 @@
             android:text="Ficha Odonto"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView2"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/imageView2" />
+            app:layout_constraintEnd_toEndOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <!-- CardLayout 2: Agenda -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cardLayout2"
-        android:layout_width="154dp"
-        android:layout_height="104dp"
+        android:layout_width="0dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/rounded_corner_pink"
         android:padding="16dp"
-        tools:layout_editor_absoluteX="201dp"
-        tools:layout_editor_absoluteY="223dp"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintStart_toEndOf="@id/cardLayout1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewGreeting"
+        app:layout_constraintWidth_percent="0.5">
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/agendaicon"
-            tools:ignore="MissingConstraints" />
+            app:srcCompat="@drawable/agendaicon" />
 
         <TextView
             android:id="@+id/textViewAgenda"
@@ -84,31 +92,29 @@
             android:text="Agenda"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView3"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/imageView3" />
+            app:layout_constraintEnd_toEndOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <!-- CardLayout 3: Checklist -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cardLayout3"
-        android:layout_width="151dp"
+        android:layout_width="0dp"
         android:layout_height="109dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/rounded_corner_green"
         android:padding="16dp"
-        app:layout_constraintEnd_toStartOf="@+id/cardLayout4"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardLayout4"
         app:layout_constraintTop_toBottomOf="@id/cardLayout1"
-        app:layout_constraintWidth_default="percent"
         app:layout_constraintWidth_percent="0.5">
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/checklisticon"
-            tools:ignore="MissingConstraints" />
+            app:srcCompat="@drawable/checklisticon" />
 
         <TextView
             android:id="@+id/textViewChecklist"
@@ -118,47 +124,40 @@
             android:text="Checklist"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView4"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/imageView4" />
+            app:layout_constraintEnd_toEndOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <!-- CardLayout 4: Notificações -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cardLayout4"
-        android:layout_width="151dp"
+        android:layout_width="0dp"
         android:layout_height="101dp"
         android:layout_marginTop="28dp"
         android:background="@drawable/rounded_corner_yellow"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/cardLayout3"
-        app:layout_constraintTop_toBottomOf="@id/cardLayout2">
+        app:layout_constraintStart_toEndOf="@id/cardLayout3"
+        app:layout_constraintTop_toBottomOf="@id/cardLayout2"
+        app:layout_constraintWidth_percent="0.5">
 
         <ImageView
             android:id="@+id/imageView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/notificacoesicon"
-            tools:ignore="MissingConstraints" />
+            app:srcCompat="@drawable/notificacoesicon" />
 
         <TextView
             android:id="@+id/textViewNotificacoes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="Notificações"
             android:textColor="#FFFFFF"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="53dp" />
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView5" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="13dp"
-        android:layout_height="20dp"
-        app:srcCompat="@drawable/setavector"
-        tools:layout_editor_absoluteX="339dp"
-        tools:layout_editor_absoluteY="32dp"
-        tools:ignore="MissingConstraints" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

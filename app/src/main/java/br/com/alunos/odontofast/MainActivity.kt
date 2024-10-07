@@ -3,6 +3,7 @@ package br.com.alunos.odontofast
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
 
@@ -11,6 +12,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        // Receber o valor da carteirinha
+        val carteirinha = intent.getStringExtra("CARTEIRINHA")
+
+        // Atualizar o TextView com o nome da carteirinha
+        val textViewGreeting = findViewById<TextView>(R.id.textViewGreeting)
+        textViewGreeting.text = "Olá,\n $carteirinha! 👋" // Atualize aqui
 
         // Vinculando os layouts de botões
         val fichaOdontoButton = findViewById<ConstraintLayout>(R.id.cardLayout1)
