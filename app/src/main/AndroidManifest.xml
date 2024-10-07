@@ -12,15 +12,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OdontoFast"
         tools:targetApi="31">
+
+        <!-- BoasVindasActivity será a primeira página -->
         <activity
-            android:name=".MainActivity"
+            android:name=".BoasVindasActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <!-- Outras activities (Agenda, Checklist, Notificações, etc.) -->
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".FichaActivity" />
+        <activity android:name=".AgendaActivity" />
+        <activity android:name=".ChecklistActivity" />
+        <activity android:name=".NotificationsActivity" />
+
     </application>
 
 </manifest>
