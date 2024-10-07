@@ -1,4 +1,7 @@
 # OdontoFast
+
+![Logo OdontoFast](https://i.ibb.co/fkF95xS/Odonto-Fast.png)
+
 ## Descrição
 OdontoFast é um aplicativo de assistência odontológica online que facilita o acesso a cuidados bucais. O aplicativo oferece uma interface amigável para que os usuários possam realizar login e acessar diversas funcionalidades relacionadas à saúde dental.
 
