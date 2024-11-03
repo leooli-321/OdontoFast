@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">OdontoFast.</string>
+
+<!--FICHA ODONTO-->
+        <string name="title">Ficha Odontológica.</string>
+        <string name="extraction_title">Extração Dentária</string>
+        <string name="extraction_event">Efetuamos uma extração com o Dr. Pablo Marçal no dia (18/09/2023) às 15:45.</string>
+        <string name="restoration_title">Restauração</string>
+        <string name="restoration_event">Restauração bucal devido à dentes cariados. Também foi executado uma limpeza total. Dr Andreas Kisser (25/08/2024)</string>
+
+<!--AGENDA-->
+        <string name="agenda_title">Agenda.</string>
+        <string name="next_evaluation">Próxima Avaliação:</string>
+        <string name="dental_prosthesis">Prótese Dental</string>
+        <string name="doctor_name">Dr. Igor Guilherme</string>
+        <string name="appointment_time">08:45 PM</string>
+        <string name="appointment_date">05 Junho de 2025</string>
+        <string name="reminder">Não esqueça de escovar os dentes pelo menos 30 minutos antes da consulta!</string>
+
+
+<!-- BOAS VINDAS-->
+        <string name="tagline">Seu amigo bucal!</string>
+        <string name="description">Entre com sua carteirinha do convênio\npara usufruir de toda nossa assistência\nodontológica online, do jeito fast!</string>
+        <string name="login_button">Login</string>
+
+</resources>

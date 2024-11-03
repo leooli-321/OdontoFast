@@ -1,0 +1,15 @@
+<resources>
+    <!-- Cores do tema claro -->
+    <color name="light_primary">#45B3CB</color>
+    <color name="light_background">#F6F6F6</color>
+    <color name="light_on_primary">#FFFFFF</color>
+    <color name="light_surface">#FFFFFF</color>
+    <color name="light_on_surface">#000000</color>
+
+    <!-- Cores do tema escuro -->
+    <color name="dark_primary">#00695C</color>
+    <color name="dark_background">#121212</color>
+    <color name="dark_on_primary">#FFFFFF</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_on_surface">#FFFFFF</color>
+</resources>

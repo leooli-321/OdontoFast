@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Comprar material de limpeza",
+    "isChecked": false,
+    "description": "Importante para organização"
+  },
+  {
+    "task": "Revisar fichas de pacientes",
+    "isChecked": true,
+    "description": "Essencial para o atendimento"
+  },
+  {
+    "task": "Agendar consultas de retorno",
+    "isChecked": false,
+    "description": "Manter os pacientes em dia"
+  }
+]

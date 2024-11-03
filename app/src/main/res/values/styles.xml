@@ -1,0 +1,21 @@
+<resources>
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_button_background</item> <!-- Fundo arredondado -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Texto branco -->
+        <item name="android:backgroundTint">@null</item> <!-- Desabilita a tintura de fundo -->
+    </style>
+
+    <style name="CustomTitleStyle">
+        <item name="android:textColor">#45B3CB</item> <!-- Cor principal dos títulos -->
+        <item name="android:textSize">24sp</item> <!-- Tamanho do texto -->
+        <item name="android:textStyle">bold</item> <!-- Estilo negrito -->
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Personalize seu tema aqui -->
+        <item name="android:colorBackground">#F6F6F6</item> <!-- Cor de fundo padrão -->
+        <item name="colorPrimary">#45B3CB</item>
+        <item name="colorPrimaryDark">#45B3CB</item>
+        <item name="colorAccent">#45B3CB</item>
+    </style>
+</resources>
