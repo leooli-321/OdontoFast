@@ -16,9 +16,6 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <!-- Saudação -->
-
-
-    <!-- CardLayout 1: Ficha Odonto -->
     <TextView
         android:id="@+id/textViewGreeting"
         android:layout_width="wrap_content"
@@ -32,6 +29,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView8" />
 
+    <!-- CardLayout 1: Ficha Odonto -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cardLayout1"
         android:layout_width="0dp"
@@ -39,10 +37,9 @@
         android:layout_marginTop="24dp"
         android:background="@drawable/rounded_corner"
         android:padding="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/cardLayout2"
         app:layout_constraintTop_toBottomOf="@id/textViewGreeting"
-        app:layout_constraintWidth_percent="0.5">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <ImageView
             android:id="@+id/imageView2"
@@ -73,10 +70,9 @@
         android:layout_marginTop="24dp"
         android:background="@drawable/rounded_corner_pink"
         android:padding="16dp"
-        app:layout_constraintStart_toEndOf="@id/cardLayout1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textViewGreeting"
-        app:layout_constraintWidth_percent="0.5">
+        app:layout_constraintTop_toBottomOf="@id/cardLayout1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <ImageView
             android:id="@+id/imageView3"
@@ -101,14 +97,13 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cardLayout3"
         android:layout_width="0dp"
-        android:layout_height="109dp"
+        android:layout_height="108dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/rounded_corner_green"
         android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/cardLayout2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/cardLayout4"
-        app:layout_constraintTop_toBottomOf="@id/cardLayout1"
-        app:layout_constraintWidth_percent="0.5">
+        app:layout_constraintEnd_toEndOf="parent">
 
         <ImageView
             android:id="@+id/imageView4"
@@ -133,14 +128,13 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cardLayout4"
         android:layout_width="0dp"
-        android:layout_height="101dp"
-        android:layout_marginTop="28dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/rounded_corner_yellow"
         android:padding="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/cardLayout3"
-        app:layout_constraintTop_toBottomOf="@id/cardLayout2"
-        app:layout_constraintWidth_percent="0.5">
+        app:layout_constraintTop_toBottomOf="@id/cardLayout3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <ImageView
             android:id="@+id/imageView5"
@@ -156,8 +150,8 @@
             android:text="Notificações"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/imageView5" />
+            app:layout_constraintEnd_toEndOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

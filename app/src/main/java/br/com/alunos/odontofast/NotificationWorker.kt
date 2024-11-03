@@ -39,7 +39,9 @@ class NotificationWorker(context: Context, params: WorkerParameters) : Worker(co
                 notificationChannelId,
                 "Checklist Notifications",
                 NotificationManager.IMPORTANCE_HIGH
-            )
+            ).apply {
+                description = "Channel for checklist notifications"
+            }
             val notificationManager = applicationContext.getSystemService(NotificationManager::class.java)
             notificationManager.createNotificationChannel(channel)
         }
@@ -56,9 +58,8 @@ class NotificationWorker(context: Context, params: WorkerParameters) : Worker(co
             val notificationManager = NotificationManagerCompat.from(applicationContext)
             notificationManager.notify(Random.nextInt(), notificationBuilder.build())
         } else {
-            // Lidar com a situação em que a permissão não foi concedida
-            // Isso pode incluir não enviar a notificação ou armazenar uma ação para enviar mais tarde
-            // Caso queira adicionar lógica aqui, faça conforme necessário.
+            // Aqui você pode lidar com a situação em que a permissão não foi concedida
+            // Por exemplo, não enviar a notificação ou armazenar uma ação para enviar mais tarde.
         }
     }
 }

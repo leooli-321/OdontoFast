@@ -41,6 +41,7 @@ dependencies {
     implementation(libs.retrofit) // Retrofit para chamadas de API
     implementation(libs.converter.gson) // Converter Gson para Retrofit
     implementation(libs.androidx.core.ktx) // Extensões do Core KTX
+    implementation("androidx.work:work-runtime-ktx:2.8.1") // Biblioteca de WorkManager
     implementation(libs.androidx.appcompat) // Biblioteca de compatibilidade
     implementation(libs.material) // Material Design
     implementation(libs.androidx.activity) // Activity KTX
@@ -48,7 +49,6 @@ dependencies {
     implementation(libs.gson) // Biblioteca Gson
     implementation("com.oracle.database.jdbc:ojdbc8:19.8.0.0") // Driver JDBC da Oracle
     implementation(libs.recyclerview) // RecyclerView para listas
-    implementation("androidx.work:work-runtime-ktx:2.7.1") // Biblioteca de WorkManager
     testImplementation(libs.junit) // JUnit para testes
     androidTestImplementation(libs.androidx.junit) // JUnit para testes Android
     androidTestImplementation(libs.androidx.espresso.core) // Espresso para testes de UI

@@ -38,7 +38,8 @@
         <activity android:name=".FichaActivity" android:exported="false" />
         <activity android:name=".AgendaActivity" android:exported="false" />
         <activity android:name=".ChecklistActivity" android:exported="false" />
-        <activity android:name=".NotificationsActivity" android:exported="false" />
+        <activity android:name=".NotificationsActivity" android:exported="false"/>
+
 
     </application>
 
