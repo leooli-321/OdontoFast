@@ -12,7 +12,7 @@ LInk - https://github.com/leooli-321/OdontoFast/blob/master/OdontoFastApp.apk
 Link - https://youtu.be/Wa5LwhelR2U
 
 ### Documentação Word:
-Link - https://github.com/leooli-321/OdontoFast/blob/master/Documentação%20-%20MAD%20(1).docx
+Link - [https://github.com/leooli-321/OdontoFast/blob/master/Documentação%20-%20MAD%20(1).docx](https://github.com/leooli-321/OdontoFast/blob/master/Documenta%C3%A7%C3%A3o%20-%20MAD.docx)
 
 ### Funcionalidades
 - **BoasVindasActivity**: Tela de boas-vindas com apresentação do aplicativo e um botão que redireciona para a tela de login.
