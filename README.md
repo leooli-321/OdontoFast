@@ -3,10 +3,10 @@
 ![Logo OdontoFast](https://i.ibb.co/fkF95xS/Odonto-Fast.png)
 
 ## Descrição
-OdontoFast é um aplicativo de assistência odontológica online que facilita o acesso a cuidados bucais. O aplicativo oferece uma interface amigável para que os usuários possam realizar login e acessar diversas funcionalidades relacionadas à saúde bucal.
+OdontoFast é um aplicativo de assistência odontológica online que facilita o acesso a cuidados bucais. O aplicativo oferece uma interface amigável para que os usuários possam realizar login e acessar diversas funcionalidades relacionadas à saúde dental.
 
 ### Link do APK
-Link - https://github.com/leooli-321/OdontoFast/blob/master/OdontoFastApp.apk
+LInk - https://github.com/leooli-321/OdontoFast/blob/master/OdontoFastApp.apk
 
 ### Vídeo Demonstração:
 Link - https://youtu.be/Wa5LwhelR2U
@@ -37,6 +37,5 @@ O aplicativo utiliza ConstraintLayout para uma organização eficiente dos eleme
 ## Wireframe da Solução
 ![Wireframes](https://i.ibb.co/QMypyWK/Wireframe-Mobile.png)
 
-## Como rodar?
-Para que a API funcione, rode o servidor em API/api.py
-Depois disso, abra a aplicação normalmente
+## Diagrama
+![Diagrama](https://i.ibb.co/dBQdjBt/Diagrama.png)

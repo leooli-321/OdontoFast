@@ -19,7 +19,6 @@ checklist_data = [
 
 @app.route('/checklist', methods=['GET'])
 def get_checklist():
-    # Seleciona 3 tarefas aleatórias
     random_tasks = random.sample(checklist_data, 3)
     return jsonify(random_tasks)
 
