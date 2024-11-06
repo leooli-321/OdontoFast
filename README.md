@@ -36,3 +36,6 @@ O aplicativo utiliza ConstraintLayout para uma organização eficiente dos eleme
 
 ## Wireframe da Solução
 ![Wireframes](https://i.ibb.co/QMypyWK/Wireframe-Mobile.png)
+
+## Diagrama
+![Diagrama](https://i.ibb.co/dBQdjBt/Diagrama.png)
